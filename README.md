@@ -3,6 +3,17 @@
 
 <p align="center"> Here is my repository for the Progressive Enhancement exercise. Not finished yet, some content can be modified or added at any times. <p><br>
 
+# CHANGELOG V1.3 :
+
+### HTML
+
+* Adding attributes for links (Title & Target)
+
+### CSS
+* Resizing the quote block
+
+<br>
+
 # CHANGELOG V1.2 :
 
 ### HTML
