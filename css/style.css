@@ -1,12 +1,21 @@
-body {
-   padding-bottom:60px; 
+body { 
+   height: 100vh;
+   width: 90%;
+   margin-left: 100px;
+   margin-right: 100px;
+   background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(154, 205, 255));
+   background: radial-gradient(rgb(255, 255, 255), rgb(154, 205, 255));   
+   background-size: 100% auto;
 }
 
 footer {
-   position:absolute;
+   position:relative;
+   width: 80%;
+   height: 40px;
    bottom: 0px;
-   width: 97%;
-   height: 30px;
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-top: 40px;
    background:white;
    text-align: center;
    border-top: 10px double #000;
@@ -51,12 +60,14 @@ td {
  }
  
 blockquote {
-   max-width: 600px;
+   width: 50%;
    text-align: center;
-   margin: 20px;
-   padding: 20px;
+   margin-left: 300px;
+   margin-bottom: 80px;
+   margin-top: 80px;
+   padding: 30px;
    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-   font-size: 15px;
+   font-size: 160%;
    color: #428bca;
    border-left: 2px solid #428bca;
    border-top-left-radius: 20px;
@@ -64,9 +75,48 @@ blockquote {
    border-right: 2px solid #428bca;
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
+   background-color: #f2f2f2;
     }
+
+
+header h1 {
+   background-color: yellow;
+}    
+
+table .rowGrey {
+   background-color: lightgray;
+}
+
+table .rowWhite {
+   background-color: white;
+}
 
 #quote {
    margin: auto;
 }
 
+#firstParagraph {
+   font-weight: bold;
+}
+
+.neighbors {
+   border-left: 6px solid red;
+   padding-left: 4px;
+   font-style: italic;
+}
+
+.farmer {
+   border-left: 6px solid green;
+   padding-left: 4px;
+   font-style: italic;
+}
+
+.good {
+   color:green;
+   text-transform: capitalize;
+}
+
+.bad {
+   color:red;
+   text-transform: capitalize;
+}
