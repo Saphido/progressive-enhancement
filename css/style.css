@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body { 
    height: 100vh;
    width: 90%;
-   margin-left: 100px;
+   margin-left: 80px;
    margin-right: 100px;
    background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(154, 205, 255));
    background: radial-gradient(rgb(255, 255, 255), rgb(154, 205, 255));   
    background-size: 100% auto;
+   font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -13,7 +16,7 @@ footer {
    width: 80%;
    height: 40px;
    bottom: 0px;
-   margin-left: 60px;
+   margin-left: 180px;
    margin-right: 60px;
    margin-top: 40px;
    background:white;
@@ -46,8 +49,14 @@ p {
    letter-spacing: 2px;
 
 }
+
+ul {
+   margin-top: -20px;
+   margin-left: 680px;
+}
 table {
    border-collapse: collapse;
+   margin-left: 700px;
  }
  
 th {
@@ -58,11 +67,14 @@ td {
    border: 1px solid black;
    text-align: center;
  }
- 
+
+h1, h2, h3, h5 {
+   text-align: center;
+}
+
 blockquote {
    width: 50%;
-   text-align: center;
-   margin-left: 300px;
+   margin-left: 380px;
    margin-bottom: 80px;
    margin-top: 80px;
    padding: 30px;
@@ -77,7 +89,6 @@ blockquote {
    border-bottom-right-radius: 20px;
    background-color: #f2f2f2;
     }
-
 
 header h1 {
    background-color: yellow;
@@ -97,6 +108,22 @@ table .rowWhite {
 
 #firstParagraph {
    font-weight: bold;
+}
+
+#randomImg {
+   float: left;
+   margin-top: 330px;
+   width: 300px;
+   height: 300px;
+   background-position: center;
+   border-radius: 25%;
+   background-size: cover;
+   border: 3px solid black;
+   display:block;
+}
+
+.center {
+   text-align: center;
 }
 
 .neighbors {
@@ -120,3 +147,17 @@ table .rowWhite {
    color:red;
    text-transform: capitalize;
 }
+
+.notification {
+   position: fixed;
+   background:#FFFFDD;
+   padding:.5rem 1rem;
+   border:3px solid #DDDDCC;
+   width:180px;
+   font-weight:bold;
+   text-align: center;
+   color: #333300;
+   float: right;
+   top: 87%;
+   left: 1600px;
+ }
