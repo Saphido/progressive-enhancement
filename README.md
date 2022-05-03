@@ -3,6 +3,19 @@
 
 <p align="center"> Here is my repository for the Progressive Enhancement exercise. Not finished yet, some content can be modified or added at any times. <p><br>
 
+# CHANGELOG V1.6 :
+
+### HTML
+
+* Adding HTML lang=EN
+* Adding a notification block
+
+### CSS
+* Improving the position of every elements
+* Positioning the notification block to the bottom right corner
+
+<br>
+
 # CHANGELOG V1.5 :
 
 ### HTML
